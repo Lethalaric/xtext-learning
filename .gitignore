@@ -1,0 +1,40 @@
+# Ignore build and output directories
+/bin/
+/gen/
+/src-gen/
+
+# Ignore Eclipse-specific files
+/.settings/
+/.project
+/.classpath
+/.factorypath
+/.metadata/
+/.recommenders/
+/.xtend/
+/.xtend.statedump/
+/.xtend.target/
+
+# Ignore IntelliJ-specific files
+.idea/
+
+# Ignore Visual Studio Code-specific files
+.vscode/
+
+# Ignore Xtext and Xtend generated files
+.mwe2/
+.idea/
+.mydsl
+*.mwe2log
+*.log
+
+# Ignore temporary and cache files
+*.tmp
+*.bak
+*.swp
+*.swp.*
+
+# Ignore Java build artifacts
+*.class
+*.jar
+*.war
+*.ear
